@@ -15,8 +15,8 @@
 </head>
 <body>
   <header class="header">
-    <div class="header__inner clearfix">
-      <h1 class="header__logo"><i class="fa fa-bolt fa-4x" aria-hidden="true"></i></h1>
+    <div class="inner clearfix">
+      <h1 class="header__logo"><i class="fa fa-bolt fa-3x" aria-hidden="true"></i></h1>
       <p class="header__contact">contact</p>
       <button class="header__btn">
         <span class="header__btn__bar"></span>
@@ -38,83 +38,81 @@
       </div>
     </section>
     <section class="what-we">
-      <ul class="what-we__list what-we__inner">
-        <li>
-          <figure class="what-we__img">
-            <img src="img/iphone.png">
-          </figure>
-        </li>
-        <li>
+      <div class="inner clearfix">
+        <div class="what-we__img-box">
+          <figure class="what-we__img"><img src="img/iphone.png"></figure>
+        </div>
+        <div class="what-we__txt-box">
           <h3 class="what-we__title">WHAT WE CAN DO</h3>
           <p class="what-we__txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        </li>
-      </ul>
+        </div>
+      </div>
     </section>
-    <section class="our-latest-work">
-      <div class="our-latest-work__inner">
-        <h3 class="our-latest-work__title">OUR LATEST WORK</h3>
-        <ul class="grid our-latest-work__list">
-          <li class="col-4">
-            <figure class="our-latest-work__img"><img src="img/01.jpg"></figure>
+    <section class="work">
+      <div class="inner">
+        <h3 class="work__title">OUR LATEST WORK</h3>
+        <ul class="work__main">
+          <li>
+            <figure><img class="work__img" src="img/01.jpg"></figure>
           </li>
-          <li class="col-4">
-             <figure class="our-latest-work__img"><img src="img/02.jpg"></figure>
+          <li>
+            <figure><img class="work__img" src="img/02.jpg"></figure>
           </li>
-          <li class="col-4">
-            <figure class="our-latest-work__img"><img src="img/03.jpg"></figure>
+          <li>
+            <figure><img class="work__img" src="img/03.jpg"></figure>
           </li>
-        </ul>
-        <ul class="grid our-latest-work__list">
-          <li class="col-4">
-            <figure class="our-latest-work__img"><img src="img/04.jpg"></figure>
+          <li>
+            <figure><img class="work__img" src="img/04.jpg"></figure>
           </li>
-          <li class="col-4">
-            <figure class="our-latest-work__img"><img src="img/05.jpg"></figure>
+          <li>
+            <figure><img class="work__img" src="img/05.jpg"></figure>
           </li>
-          <li class="col-4">
-            <figure class="our-latest-work__img"><img src="img/06.jpg"></figure>
+          <li>
+            <figure><img class="work__img" src="img/06.jpg"></figure>
           </li>
         </ul>
-        <ul class="our-latest-work__mail-me">
-          <li class="col-8 our-latest-work__mail-me__txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</li>
-          <li class="col-2">
-            <buttun class="our-latest-work__mail-me__btn">Mail me!</buttun>
+        <div class="work__sub">
+          <p class="work__sub__txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+          <buttun class="work__sub__btn">Mail me!</buttun>
+        </div>
+      </div>
+    </section>
+    <section class="skills">
+      <div class="inner">
+        <h3 class="skills__title">OUR SKILLS</h3>
+        <ul class="skills__list">
+          <li>
+            <figure class="skills__list__img"><img src="img/circle_01.png"></figure>
+            <p>javaScript</p>
+          </li>
+          <li>
+            <figure class="skills__list__img"><img src="img/circle_02.png"></figure>
+            <p>Bootstrap</p>
+          </li>
+          <li>
+            <figure class="skills__list__img"><img src="img/circle_03.png"></figure>
+            <p>WordPress</p>
+          </li>
+          <li>
+            <figure class="skills__list__img"><img src="img/circle_04.png"></figure>
+            <p>Photoshop</p>
           </li>
         </ul>
       </div>
     </section>
-    <section class="our-skills">
-        <h3 class="our-skills__title">OUR SKILLS</h3>
-        <ul class="our-skills__list">
-          <li>
-            <figure class="our-skills__list__img"><img src="img/circle_01.png"></figure>
-            <p>javaScript</p>
-          </li>
-          <li>
-            <figure class="our-skills__list__img"><img src="img/circle_02.png"></figure>
-            <p>Bootstrap</p>
-          </li>
-          <li>
-            <figure class="our-skills__list__img"><img src="img/circle_03.png"></figure>
-            <p>WordPress</p>
-          </li>
-          <li>
-            <figure class="our-skills__list__img"><img src="img/circle_04.png"></figure>
-            <p>Photoshop</p>
-          </li>
-        </ul>
-    </section>
     <section class="sns">
+    <div class="inner">
       <ul class="sns__list">
         <li><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></li>
         <li><i class="fa fa-dribbble fa-3x" aria-hidden="true"></i></li>
         <li><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></li>
         <li><i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i></li>
       </ul>
+    </div>
     </section>
   </main>
   <footer>
-    <div class="footer__inner clearfix">
+    <div class="inner clearfix">
       <p class="footer__txt">Crafted with<i class="fa fa-heart" aria-hidden="true"></i>by BlackTie.co.</p>
     </div>
   </footer>
